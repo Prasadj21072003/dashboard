@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: black;
+  --foreground: white;
+}
+
+body {
+  //color: var(--foreground);
+  //background: var(--background);
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  width: 1px;
+}
